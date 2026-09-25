@@ -10,7 +10,7 @@ import requests # we import req when we have to send the req or want to send the
 
 load_dotenv()
 
-from langchain_mistralai import ChatMistralAI
+from langchain_mistralai.chat_models import ChatMistralAI
 from langchain.tools import tool
 from langchain_core.messages import HumanMessage, ToolMessage
 from langchain_tavily import TavilySearch

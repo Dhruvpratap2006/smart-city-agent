@@ -1,0 +1,15 @@
+# Environment & Utilities
+python-dotenv>=1.0.1
+requests>=2.31.0
+rich>=13.7.0
+
+# LangChain Core & Tools
+langchain>=0.2.0
+langchain-core>=0.2.0
+
+# Mistral AI Provider
+langchain-mistralai>=0.1.0
+
+# Tavily Search API
+tavily-python>=0.3.0
+langchain-tavily>=0.1.0
